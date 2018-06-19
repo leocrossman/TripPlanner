@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/leocrossman/TripPlanner/issues"
   },
-  "homepage": "https://github.com/leocrossman/TripPlanner#readme"
+  "homepage": "https://github.com/leocrossman/TripPlanner#readme",
+  "devDependencies": {
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "mapbox-gl": "^0.46.0-beta.1"
+  }
 }
